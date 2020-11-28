@@ -2,88 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #score {
-            margin-bottom: 12px;
-            width: 400px;
-            text-align: center;
-            padding-top: 12px;
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            width: 400px;
-            border: 2px solid rgba(0, 0, 0, 0.1);
-            background-color: #dfa9a9;
-        }
-
-        .emptyBlock,
-        .eatBlock,
-        .snakeBlock,
-        .headBlock,
-        .boom,
-        .broccoli {
-            width: 40px;
-            height: 40px;
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            box-sizing: border-box;
-        }
-
-        .emptyBlock {
-            background-color: #dfa9a9;
-        }
-
-        .eatBlock {
-            background: center url('https://emojis.slackmojis.com/emojis/images/1450319442/13/1up.png?1450319442');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        .snakeBlock {
-            background: center url('https://emojis.slackmojis.com/emojis/images/1495224256/2293/donut_parrot.gif?1495224256');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        .headBlock {
-            background: center url('https://emojis.slackmojis.com/emojis/images/1471119458/989/parrot_dad.gif?1471119458');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        .boom {
-            background: center url('https://emojis.slackmojis.com/emojis/images/1554493303/5578/boom2.gif?1554493303');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .broccoli {
-            background: center url('https://emojis.slackmojis.com/emojis/images/1510326482/3182/broccoli.png?1510326482');
-            background-size: contain;
-            background-repeat: no-repeat;
-
-        }
-    </style>
-
+    <script src="https://raw.githubusercontent.com/M4MIND/iso2d/update-core/dist/iso2d.js"></script>
 </head>
 
 <body>
-    <div>
-        <div id="score">Score: <span>0</span></div>
-        <div class="container"></div>
-    </div>
-
-    <script src="/render.js"></script>
-    <script src="/gameLogic.js"></script>
 </body>
 
 </html>
